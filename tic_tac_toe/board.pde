@@ -268,8 +268,8 @@ void checkWin(){
       gameOver = true;
     }
   }
-  else if(counter == 8){
-    println("Neither user nor computer wins.");
+  else if(counter == 9){
+ println("Neither user nor computer wins.");
     gameOver = true;
   }
 }
